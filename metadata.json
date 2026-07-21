@@ -1,0 +1,6 @@
+{
+  "name": "Electra - Premium Electronics Store",
+  "description": "An enterprise-grade full-stack physical electronics store e-commerce platform with RBAC dashboards, WhatsApp integration, real-time inventory management, and AI recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

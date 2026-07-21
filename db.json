@@ -1,0 +1,992 @@
+{
+  "categories": [
+    {
+      "id": "smartphones",
+      "name": "Smartphones",
+      "slug": "smartphones",
+      "icon": "Smartphone"
+    },
+    {
+      "id": "computers",
+      "name": "Computers & Laptops",
+      "slug": "computers",
+      "icon": "Laptop"
+    },
+    {
+      "id": "watches",
+      "name": "Smart Watches",
+      "slug": "watches",
+      "icon": "Watch"
+    },
+    {
+      "id": "accessories",
+      "name": "Audio & Accessories",
+      "slug": "accessories",
+      "icon": "Headphones"
+    }
+  ],
+  "subCategories": [
+    {
+      "id": "phones",
+      "categoryId": "smartphones",
+      "name": "Phones",
+      "slug": "phones"
+    },
+    {
+      "id": "chargers",
+      "categoryId": "smartphones",
+      "name": "Chargers",
+      "slug": "chargers"
+    },
+    {
+      "id": "cases",
+      "categoryId": "smartphones",
+      "name": "Cases & Protectors",
+      "slug": "cases"
+    },
+    {
+      "id": "laptops",
+      "categoryId": "computers",
+      "name": "Laptops",
+      "slug": "laptops"
+    },
+    {
+      "id": "desktops",
+      "categoryId": "computers",
+      "name": "Desktops & Workstations",
+      "slug": "desktops"
+    },
+    {
+      "id": "components",
+      "categoryId": "computers",
+      "name": "PC Components (RAM, SSD, GPU, CPU)",
+      "slug": "components"
+    },
+    {
+      "id": "peripherals",
+      "categoryId": "computers",
+      "name": "Monitors, Keyboards & Mice",
+      "slug": "peripherals"
+    },
+    {
+      "id": "wearables",
+      "categoryId": "watches",
+      "name": "Watches",
+      "slug": "wearables"
+    },
+    {
+      "id": "straps",
+      "categoryId": "watches",
+      "name": "Watch Straps",
+      "slug": "straps"
+    },
+    {
+      "id": "audio",
+      "categoryId": "accessories",
+      "name": "Headphones & Earbuds",
+      "slug": "audio"
+    },
+    {
+      "id": "power",
+      "categoryId": "accessories",
+      "name": "Power Banks & Cables",
+      "slug": "power"
+    },
+    {
+      "id": "gaming",
+      "categoryId": "accessories",
+      "name": "Gaming Accessories",
+      "slug": "gaming"
+    },
+    {
+      "id": "networking",
+      "categoryId": "accessories",
+      "name": "Networking Devices",
+      "slug": "networking"
+    }
+  ],
+  "brands": [
+    {
+      "id": "apple",
+      "name": "Apple",
+      "slug": "apple"
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung",
+      "slug": "samsung"
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "slug": "google"
+    },
+    {
+      "id": "asus",
+      "name": "ASUS",
+      "slug": "asus"
+    },
+    {
+      "id": "sony",
+      "name": "Sony",
+      "slug": "sony"
+    },
+    {
+      "id": "garmin",
+      "name": "Garmin",
+      "slug": "garmin"
+    },
+    {
+      "id": "logitech",
+      "name": "Logitech",
+      "slug": "logitech"
+    },
+    {
+      "id": "corsair",
+      "name": "Corsair",
+      "slug": "corsair"
+    },
+    {
+      "id": "amd",
+      "name": "AMD",
+      "slug": "amd"
+    },
+    {
+      "id": "razer",
+      "name": "Razer",
+      "slug": "razer"
+    },
+    {
+      "id": "anker",
+      "name": "Anker",
+      "slug": "anker"
+    },
+    {
+      "id": "belkin",
+      "name": "Belkin",
+      "slug": "belkin"
+    },
+    {
+      "id": "jbl",
+      "name": "JBL",
+      "slug": "jbl"
+    },
+    {
+      "id": "bose",
+      "name": "Bose",
+      "slug": "bose"
+    },
+    {
+      "id": "sonos",
+      "name": "Sonos",
+      "slug": "sonos"
+    },
+    {
+      "id": "netgear",
+      "name": "Netgear",
+      "slug": "netgear"
+    }
+  ],
+  "products": [
+    {
+      "id": "iphone-15-pro-max",
+      "name": "Apple iPhone 15 Pro Max",
+      "sku": "IPH15PM-256",
+      "price": 1199,
+      "discountPrice": 1099,
+      "stock": 24,
+      "minStockAlert": 5,
+      "brandId": "apple",
+      "categoryId": "smartphones",
+      "subCategoryId": "phones",
+      "specifications": {
+        "Processor": "A17 Pro Chip",
+        "Storage": "256GB",
+        "RAM": "8GB LPDDR5X",
+        "Display": "6.7\" Super Retina XDR OLED",
+        "Battery": "4441 mAh with 25W Fast Charge",
+        "OS": "iOS 17",
+        "Warranty": "1 Year Apple International"
+      },
+      "description": "Forged in titanium and featuring the groundbreaking A17 Pro chip, a customizable Action button, and the most powerful iPhone camera system ever.",
+      "rating": 4.8,
+      "reviewCount": 154,
+      "images": [
+        "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "1 Year Apple International",
+      "barcode": "190199000012"
+    },
+    {
+      "id": "galaxy-s24-ultra",
+      "name": "Samsung Galaxy S24 Ultra",
+      "sku": "SAMS24U-512",
+      "price": 1299,
+      "discountPrice": 1249,
+      "stock": 18,
+      "minStockAlert": 5,
+      "brandId": "samsung",
+      "categoryId": "smartphones",
+      "subCategoryId": "phones",
+      "specifications": {
+        "Processor": "Snapdragon 8 Gen 3 for Galaxy",
+        "Storage": "512GB UFS 4.0",
+        "RAM": "12GB LPDDR5X",
+        "Display": "6.8\" Dynamic AMOLED 2X QHD+",
+        "Battery": "5000 mAh with 45W Fast Charging",
+        "OS": "Android 14 (One UI 6.1)",
+        "Warranty": "2 Years Samsung Official"
+      },
+      "description": "Welcome to the era of mobile AI. With Galaxy S24 Ultra in your hands, you can unleash whole new levels of creativity, productivity and possibility.",
+      "rating": 4.7,
+      "reviewCount": 98,
+      "images": [
+        "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "2 Years Samsung Official",
+      "barcode": "880609000023"
+    },
+    {
+      "id": "pixel-8-pro",
+      "name": "Google Pixel 8 Pro",
+      "sku": "GOOG-P8P-128",
+      "price": 999,
+      "stock": 12,
+      "minStockAlert": 3,
+      "brandId": "google",
+      "categoryId": "smartphones",
+      "subCategoryId": "phones",
+      "specifications": {
+        "Processor": "Google Tensor G3",
+        "Storage": "128GB",
+        "RAM": "12GB LPDDR5X",
+        "Display": "6.7\" Super Actua Display 120Hz",
+        "Battery": "5050 mAh with 30W charging",
+        "OS": "Android 14",
+        "Warranty": "1 Year Google Warranty"
+      },
+      "description": "The Google Pixel 8 Pro is the all-pro phone engineered by Google. It has the Google Tensor G3 chip and a stunning 6.7\" Super Actua Display.",
+      "rating": 4.6,
+      "reviewCount": 45,
+      "images": [
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "1 Year Google Warranty"
+    },
+    {
+      "id": "macbook-pro-m3",
+      "name": "Apple MacBook Pro 14\" M3 Max",
+      "sku": "MBP14M3X-1TB",
+      "price": 2499,
+      "discountPrice": 2399,
+      "stock": 8,
+      "minStockAlert": 3,
+      "brandId": "apple",
+      "categoryId": "computers",
+      "subCategoryId": "laptops",
+      "specifications": {
+        "Processor": "M3 Max Chip (14-core CPU, 30-core GPU)",
+        "RAM": "36GB Unified Memory",
+        "Storage": "1TB Superfast SSD",
+        "Display": "14.2-inch Liquid Retina XDR 120Hz",
+        "Battery": "Up to 18 hours battery life",
+        "OS": "macOS Sonoma",
+        "Warranty": "1 Year Apple Warranty"
+      },
+      "description": "The 14-inch MacBook Pro blasts forward with M3 Max, an incredibly advanced chip that brings massive speed and capability for extreme workflows.",
+      "rating": 4.9,
+      "reviewCount": 42,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "1 Year Apple Warranty",
+      "barcode": "190199000045"
+    },
+    {
+      "id": "rog-strix-g16",
+      "name": "ASUS ROG Strix G16 Gaming Laptop",
+      "sku": "ROG-G16-4070",
+      "price": 1799,
+      "discountPrice": 1649,
+      "stock": 4,
+      "minStockAlert": 3,
+      "brandId": "asus",
+      "categoryId": "computers",
+      "subCategoryId": "laptops",
+      "specifications": {
+        "Processor": "Intel Core i9-13980HX",
+        "GPU": "NVIDIA GeForce RTX 4070 (8GB GDDR6)",
+        "RAM": "16GB DDR5 Dual Channel",
+        "Storage": "1TB NVMe PCIe 4.0 SSD",
+        "Display": "16-inch QHD+ 240Hz Nebula Display",
+        "OS": "Windows 11 Home",
+        "Warranty": "2 Years ASUS Global Warranty"
+      },
+      "description": "Power your play with the high-performance ASUS ROG Strix G16. Featuring an i9 powerhouse CPU and NVIDIA RTX 40-series GPU to dominate any gaming matches.",
+      "rating": 4.6,
+      "reviewCount": 36,
+      "images": [
+        "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "2 Years ASUS Global Warranty",
+      "barcode": "471109000078"
+    },
+    {
+      "id": "corsair-one-i500",
+      "name": "CORSAIR ONE i500 Gaming PC",
+      "sku": "CS-ONE-I500",
+      "price": 3599,
+      "stock": 5,
+      "minStockAlert": 1,
+      "brandId": "corsair",
+      "categoryId": "computers",
+      "subCategoryId": "desktops",
+      "specifications": {
+        "Processor": "Intel Core i9-14900K Liquid Cooled",
+        "GPU": "NVIDIA GeForce RTX 4080 Super 16GB",
+        "RAM": "32GB DDR5 Dual Channel",
+        "Storage": "2TB M.2 NVMe SSD",
+        "OS": "Windows 11 Pro",
+        "Warranty": "2 Years Corsair Warranty"
+      },
+      "description": "Sleek, compact, high-fidelity liquid-cooled desktop gaming compute rig. Built for premium gamers demanding absolute power and ultra-quiet room operations.",
+      "rating": 4.8,
+      "reviewCount": 15,
+      "images": [
+        "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "2 Years Corsair Warranty"
+    },
+    {
+      "id": "rtx-4080-super",
+      "name": "ASUS ROG Strix RTX 4080 Super OC",
+      "sku": "ASUS-RTX4080S",
+      "price": 1149,
+      "stock": 4,
+      "minStockAlert": 3,
+      "brandId": "asus",
+      "categoryId": "computers",
+      "subCategoryId": "components",
+      "specifications": {
+        "GPU": "NVIDIA GeForce RTX 4080 Super",
+        "CUDA_Cores": "10240 Cores",
+        "VRAM": "16GB GDDR6X",
+        "Boost_Clock": "2670 MHz",
+        "Warranty": "3 Years ASUS Warranty"
+      },
+      "description": "Engineered with massive cooling chambers and robust power delivery to unlock the extreme gaming and ray-tracing performance of NVIDIA's Ada Lovelace architecture.",
+      "rating": 4.9,
+      "reviewCount": 19,
+      "images": [
+        "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "3 Years ASUS Warranty",
+      "barcode": "471109000108"
+    },
+    {
+      "id": "ryzen-9-7950x",
+      "name": "AMD Ryzen 9 7950X Processor",
+      "sku": "AMD-RYZ9-7950X",
+      "price": 549,
+      "stock": 15,
+      "minStockAlert": 2,
+      "brandId": "amd",
+      "categoryId": "computers",
+      "subCategoryId": "components",
+      "specifications": {
+        "Cores": "16 Cores / 32 Threads",
+        "Base_Clock": "4.5 GHz",
+        "Boost_Clock": "Up to 5.7 GHz",
+        "Socket": "Socket AM5",
+        "Warranty": "3 Years AMD Warranty"
+      },
+      "description": "The ultimate gaming and creator powerhouse processor. Unleash pure speeds of next-generation PCIe Gen 5 lanes with Socket AM5 motherboard rigs.",
+      "rating": 4.8,
+      "reviewCount": 24,
+      "images": [
+        "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "3 Years AMD Warranty"
+    },
+    {
+      "id": "apple-watch-ultra-2",
+      "name": "Apple Watch Ultra 2 GPS + Cellular",
+      "sku": "AWU2-TITAN",
+      "price": 799,
+      "stock": 15,
+      "minStockAlert": 4,
+      "brandId": "apple",
+      "categoryId": "watches",
+      "subCategoryId": "wearables",
+      "specifications": {
+        "Material": "49mm Titanium Case",
+        "Display": "Always-On Retina LTPO OLED (Up to 3000 nits)",
+        "Battery": "Up to 36 hours (72 hours in Low Power Mode)",
+        "Waterproof": "100m water resistant, recreational dive to 40m",
+        "Warranty": "1 Year Apple International"
+      },
+      "description": "The ultimate sports and adventure watch is back. Rugged titanium case, dual-frequency GPS, customizable action button, and up to 36 hours of battery.",
+      "rating": 4.8,
+      "reviewCount": 65,
+      "images": [
+        "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "1 Year Apple International",
+      "barcode": "190199000089"
+    },
+    {
+      "id": "garmin-fenix-7",
+      "name": "Garmin Fenix 7 Pro Sapphire Solar",
+      "sku": "GAR-F7PSS-SOL",
+      "price": 899,
+      "stock": 8,
+      "minStockAlert": 2,
+      "brandId": "garmin",
+      "categoryId": "watches",
+      "subCategoryId": "wearables",
+      "specifications": {
+        "Power": "Solar Charging Glass",
+        "Features": "Full Color Topomaps & Flashlight",
+        "Display": "1.3\" Sunlight-visible Memory-in-pixel",
+        "Battery": "Up to 22 days in smartwatch mode",
+        "Warranty": "2 Years Garmin Warranty"
+      },
+      "description": "Premium multisport GPS timepiece featuring a highly scratch-resistant solar charging sapphire lens and preloaded full-color topomaps.",
+      "rating": 4.9,
+      "reviewCount": 42,
+      "images": [
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "2 Years Garmin Warranty"
+    },
+    {
+      "id": "sony-wh1000xm5",
+      "name": "Sony WH-1000XM5 Wireless Headphones",
+      "sku": "SONY-XM5-BLK",
+      "price": 399,
+      "discountPrice": 349,
+      "stock": 35,
+      "minStockAlert": 10,
+      "brandId": "sony",
+      "categoryId": "accessories",
+      "subCategoryId": "audio",
+      "specifications": {
+        "Type": "Over-Ear, Closed-back",
+        "Connectivity": "Bluetooth 5.2, multipoint, LDAC, NFC",
+        "Battery": "Up to 30 hours with Active Noise Cancelling",
+        "Weight": "250g",
+        "Warranty": "1 Year Sony Local"
+      },
+      "description": "With industry-leading noise cancellation, exceptional sound quality, and clear hands-free calling, these headphones redefine listening comfort and distraction-free audio.",
+      "rating": 4.7,
+      "reviewCount": 112,
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "1 Year Sony Local",
+      "barcode": "454873000056"
+    },
+    {
+      "id": "bose-qc-ultra",
+      "name": "Bose QuietComfort Ultra Earbuds",
+      "sku": "BOSE-QC-ULTRA",
+      "price": 299,
+      "stock": 25,
+      "minStockAlert": 5,
+      "brandId": "bose",
+      "categoryId": "accessories",
+      "subCategoryId": "audio",
+      "specifications": {
+        "Type": "Wireless In-Ear ANC Earbuds",
+        "Battery": "Up to 6 hours (24 hours with case)",
+        "Waterproof": "IPX4 water-resistant rating",
+        "Warranty": "1 Year Bose Warranty"
+      },
+      "description": "Exhilarating spatial sound with immersive ANC. Customized sound calibration adjusts perfectly to your ears for personalized playback fidelity.",
+      "rating": 4.8,
+      "reviewCount": 33,
+      "images": [
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1608156639585-b3a032ef9689?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "1 Year Bose Warranty"
+    },
+    {
+      "id": "jbl-flip-6",
+      "name": "JBL Flip 6 Waterproof Speaker",
+      "sku": "JBL-FLIP6-BLK",
+      "price": 129,
+      "stock": 30,
+      "minStockAlert": 5,
+      "brandId": "jbl",
+      "categoryId": "accessories",
+      "subCategoryId": "audio",
+      "specifications": {
+        "Output": "30W 2-way Speaker System",
+        "Battery": "Up to 12 hours playtime",
+        "Waterproof": "IP67 Waterproof and Dustproof",
+        "Warranty": "1 Year JBL Warranty"
+      },
+      "description": "Loud, powerful JBL original Pro Sound. Experience bold audio frequencies with a racetrack-shaped woofer, separate tweeter, and dual pumping bass radiators.",
+      "rating": 4.6,
+      "reviewCount": 51,
+      "images": [
+        "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "1 Year JBL Warranty"
+    },
+    {
+      "id": "sonos-era-100",
+      "name": "Sonos Era 100 Smart Speaker",
+      "sku": "SONOS-ERA100",
+      "price": 249,
+      "stock": 12,
+      "minStockAlert": 2,
+      "brandId": "sonos",
+      "categoryId": "accessories",
+      "subCategoryId": "audio",
+      "specifications": {
+        "Audio": "Stereo sound with dual tweeters",
+        "Connectivity": "WiFi, Bluetooth 5.0, USB-C Line-In",
+        "Controls": "Voice Control, Touch UI controls",
+        "Warranty": "1 Year Sonos Warranty"
+      },
+      "description": "The next-generation acoustics icon. Stereo sound and rich deep bass fine-tuned for high-fidelity audio mapping in small or large rooms.",
+      "rating": 4.7,
+      "reviewCount": 18,
+      "images": [
+        "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "1 Year Sonos Warranty"
+    },
+    {
+      "id": "charger-140w",
+      "name": "Apple 140W USB-C Power Adapter",
+      "sku": "AP-140W-CHARG",
+      "price": 99,
+      "stock": 45,
+      "minStockAlert": 8,
+      "brandId": "apple",
+      "categoryId": "smartphones",
+      "subCategoryId": "chargers",
+      "specifications": {
+        "Power": "140W max output",
+        "Connector": "USB-C",
+        "Compatibility": "iPhone, iPad, MacBook Air & Pro models",
+        "Warranty": "1 Year Apple Warranty"
+      },
+      "description": "The 140W USB-C Power Adapter offers fast, efficient charging at home, in the office, or on the go.",
+      "rating": 4.5,
+      "reviewCount": 22,
+      "images": [
+        "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1622445262465-2481c4574875?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "1 Year Apple Warranty",
+      "barcode": "190199000199"
+    },
+    {
+      "id": "anker-prime-100w",
+      "name": "Anker Prime 100W GaN Wall Charger",
+      "sku": "ANKER-PR-100W",
+      "price": 79,
+      "stock": 50,
+      "minStockAlert": 10,
+      "brandId": "anker",
+      "categoryId": "smartphones",
+      "subCategoryId": "chargers",
+      "specifications": {
+        "Power": "100W GaN technology",
+        "Ports": "2x USB-C, 1x USB-A",
+        "Fidelity": "ActiveShield 2.0 temperature monitoring",
+        "Warranty": "18 Months Anker Warranty"
+      },
+      "description": "Ultra-compact GaN fast wall charger. Power up your smartphone, tablets, and luxury laptops simultaneously with robust heat management protection.",
+      "rating": 4.8,
+      "reviewCount": 61,
+      "images": [
+        "https://images.unsplash.com/photo-1622445262465-2481c4574875?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "18 Months Anker Warranty"
+    },
+    {
+      "id": "anker-powercore-24k",
+      "name": "Anker PowerCore 24K Power Bank",
+      "sku": "ANKER-PC-24K",
+      "price": 149,
+      "stock": 40,
+      "minStockAlert": 5,
+      "brandId": "anker",
+      "categoryId": "accessories",
+      "subCategoryId": "power",
+      "specifications": {
+        "Capacity": "24,000 mAh",
+        "Output": "140W max smart output",
+        "Screen": "Smart digital display",
+        "Warranty": "2 Years Anker Warranty"
+      },
+      "description": "High-capacity power bank featuring two high-speed USB-C ports, a smart interactive display, and absolute 140W maximum charging output speeds.",
+      "rating": 4.9,
+      "reviewCount": 84,
+      "images": [
+        "https://images.unsplash.com/photo-1609592424085-78e705b0b61f?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1622445262465-2481c4574875?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "2 Years Anker Official"
+    },
+    {
+      "id": "logitech-mx-master-3s",
+      "name": "Logitech MX Master 3S Mouse",
+      "sku": "LOGI-MXM3S",
+      "price": 99,
+      "stock": 35,
+      "minStockAlert": 6,
+      "brandId": "logitech",
+      "categoryId": "computers",
+      "subCategoryId": "peripherals",
+      "specifications": {
+        "Sensor": "8000 DPI Darkfield tracking",
+        "Buttons": "7 quiet click buttons",
+        "Battery": "Up to 70 days on a full charge",
+        "Warranty": "2 Years Logitech Warranty"
+      },
+      "description": "Premium ergonomic precision performance mouse. High accuracy tracking works even on glass panels with ultra-quiet microswitch triggers.",
+      "rating": 4.8,
+      "reviewCount": 143,
+      "images": [
+        "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "2 Years Logitech Warranty"
+    },
+    {
+      "id": "apple-magsafe-wallet",
+      "name": "Apple MagSafe Leather Wallet",
+      "sku": "AP-MS-WALLET",
+      "price": 59,
+      "stock": 20,
+      "minStockAlert": 3,
+      "brandId": "apple",
+      "categoryId": "smartphones",
+      "subCategoryId": "cases",
+      "specifications": {
+        "Material": "French premium leather",
+        "Compatibility": "iPhone 12, 13, 14, 15 series",
+        "Warranty": "1 Year Apple Warranty"
+      },
+      "description": "Designed with both style and function in mind, the iPhone Leather Wallet with MagSafe is the perfect way to keep your ID and credit cards close at hand.",
+      "rating": 4.5,
+      "reviewCount": 17,
+      "images": [
+        "https://images.unsplash.com/photo-1607344645866-009c320b63e0?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "1 Year Apple Warranty"
+    },
+    {
+      "id": "razer-blackwidow-v4-pro",
+      "name": "Razer BlackWidow V4 Pro Keyboard",
+      "sku": "RAZ-BW-V4PRO",
+      "price": 229,
+      "stock": 10,
+      "minStockAlert": 2,
+      "brandId": "razer",
+      "categoryId": "accessories",
+      "subCategoryId": "gaming",
+      "specifications": {
+        "Switches": "Razer Green Clicky Mechanical Switches",
+        "Lighting": "Per-key Razer Chroma RGB",
+        "Keys": "Double-shot ABS keycaps with command dial",
+        "Warranty": "2 Years Razer Warranty"
+      },
+      "description": "Unleash extreme gaming battle rig performance. Featuring dynamic command dials, programmable macro layout keys, and robust premium leather wrist rest comforts.",
+      "rating": 4.7,
+      "reviewCount": 28,
+      "images": [
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "2 Years Razer Warranty"
+    },
+    {
+      "id": "asus-rog-gt6-router",
+      "name": "ASUS ROG Rapture GT6 Mesh Router",
+      "sku": "ASUS-RAP-GT6",
+      "price": 299,
+      "stock": 6,
+      "minStockAlert": 2,
+      "brandId": "asus",
+      "categoryId": "accessories",
+      "subCategoryId": "networking",
+      "specifications": {
+        "Speed": "AX10000 Tri-Band WiFi 6",
+        "Coverage": "Up to 5800 sq ft mesh mapping",
+        "Ports": "2.5G WAN/LAN and 3x Gigabit LAN",
+        "Warranty": "3 Years ASUS Global Warranty"
+      },
+      "description": "Premium tri-band WiFi 6 gaming mesh networking router. Dominate gaming lag thresholds with extreme antenna arrays and high-capacity network routing logic.",
+      "rating": 4.9,
+      "reviewCount": 11,
+      "images": [
+        "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80"
+      ],
+      "availability": true,
+      "warranty": "3 Years ASUS Global Warranty"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "electra10",
+      "code": "ELECTRA10",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "minPurchase": 100,
+      "isActive": true,
+      "expiryDate": "2027-12-31"
+    },
+    {
+      "id": "welcome50",
+      "code": "WELCOME50",
+      "discountType": "fixed",
+      "discountValue": 50,
+      "minPurchase": 500,
+      "isActive": true,
+      "expiryDate": "2027-12-31"
+    },
+    {
+      "id": "superdeal",
+      "code": "SUPERDEAL",
+      "discountType": "percentage",
+      "discountValue": 20,
+      "minPurchase": 1500,
+      "isActive": true,
+      "expiryDate": "2027-12-31"
+    }
+  ],
+  "websiteSettings": {
+    "storeName": "ELECTRA",
+    "whatsappNumber": "+21325789900",
+    "storeEmail": "contact@electra-dz.com",
+    "storePhone": "+213 25 78 99 00",
+    "storeAddress": "Rue de la Palestine, Médéa, Algeria",
+    "deliveryCost": 10,
+    "allowCashOnDelivery": true,
+    "allowBankTransfer": true,
+    "enableLoyaltyPoints": true,
+    "pointsPerDollar": 1
+  },
+  "users": [
+    {
+      "id": "user-super-admin",
+      "name": "Sarah Connor (Super Admin)",
+      "email": "admin@electra.com",
+      "role": "Super Admin",
+      "loyaltyPoints": 500,
+      "createdAt": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "user-smartphone-manager",
+      "name": "David Miller (Phones)",
+      "email": "smartphones@electra.com",
+      "role": "Smartphone Manager",
+      "loyaltyPoints": 100,
+      "createdAt": "2026-02-15T00:00:00.000Z"
+    },
+    {
+      "id": "user-computer-manager",
+      "name": "Linus Tech (Computers)",
+      "email": "computers@electra.com",
+      "role": "Computer Manager",
+      "loyaltyPoints": 200,
+      "createdAt": "2026-03-01T00:00:00.000Z"
+    },
+    {
+      "id": "user-watch-manager",
+      "name": "Alex Garmin (Watches)",
+      "email": "watches@electra.com",
+      "role": "Smart Watch Manager",
+      "loyaltyPoints": 80,
+      "createdAt": "2026-04-10T00:00:00.000Z"
+    },
+    {
+      "id": "user-accessories-manager",
+      "name": "Maria Beats (Accessories)",
+      "email": "accessories@electra.com",
+      "role": "Accessories Manager",
+      "loyaltyPoints": 150,
+      "createdAt": "2026-05-05T00:00:00.000Z"
+    },
+    {
+      "id": "user-orders-manager",
+      "name": "John FedEx (Logistics)",
+      "email": "orders@electra.com",
+      "role": "Orders Manager",
+      "loyaltyPoints": 0,
+      "createdAt": "2026-06-12T00:00:00.000Z"
+    },
+    {
+      "id": "user-customer-service",
+      "name": "Emily Watson (Support)",
+      "email": "service@electra.com",
+      "role": "Customer Service",
+      "loyaltyPoints": 50,
+      "createdAt": "2026-07-01T00:00:00.000Z"
+    },
+    {
+      "id": "user-customer",
+      "name": "James Bond (VIP Customer)",
+      "email": "customer@electra.com",
+      "role": "Customer",
+      "loyaltyPoints": 1250,
+      "phone": "+213550112233",
+      "address": "Rue de la Palestine, Médéa",
+      "city": "Médéa",
+      "createdAt": "2026-07-15T00:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-984572",
+      "customerName": "James Bond",
+      "email": "customer@electra.com",
+      "phone": "+213550112233",
+      "address": "Rue de la Palestine, Médéa",
+      "city": "Médéa",
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "Paid",
+      "shippingStatus": "Delivered",
+      "deliveryCost": 10,
+      "subtotal": 1099,
+      "total": 1109,
+      "whatsappSent": true,
+      "createdAt": "2026-07-16T14:30:00.000Z",
+      "items": [
+        {
+          "id": "item-1",
+          "orderId": "ORD-984572",
+          "productId": "iphone-15-pro-max",
+          "name": "Apple iPhone 15 Pro Max",
+          "price": 1099,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "ORD-115822",
+      "customerName": "Jane Doe",
+      "email": "jane@gmail.com",
+      "phone": "+213661445566",
+      "address": "Didouche Mourad, Algiers",
+      "city": "Algiers",
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "Pending",
+      "shippingStatus": "Pending",
+      "deliveryCost": 10,
+      "subtotal": 349,
+      "total": 359,
+      "whatsappSent": false,
+      "createdAt": "2026-07-19T09:15:00.000Z",
+      "items": [
+        {
+          "id": "item-2",
+          "orderId": "ORD-115822",
+          "productId": "sony-wh1000xm5",
+          "name": "Sony WH-1000XM5 Wireless Headphones",
+          "price": 349,
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "productId": "iphone-15-pro-max",
+      "userName": "James Bond",
+      "rating": 5,
+      "comment": "Absolutely marvelous craftsmanship. Highly recommend this premium titanium beast!",
+      "createdAt": "2026-07-17T11:00:00.000Z"
+    },
+    {
+      "id": "rev-2",
+      "productId": "sony-wh1000xm5",
+      "userName": "AcousticFanatic",
+      "rating": 4,
+      "comment": "Noise cancelling is second to none, but warm in the sun.",
+      "createdAt": "2026-07-18T16:00:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "title": "New Order Received",
+      "message": "Order ORD-115822 placed by Jane Doe is awaiting confirmation.",
+      "read": false,
+      "type": "success",
+      "createdAt": "2026-07-19T09:15:00.000Z"
+    },
+    {
+      "id": "notif-2",
+      "title": "Low Stock Alert",
+      "message": "ASUS ROG Strix RTX 4080 Super is down to 4 units left.",
+      "read": false,
+      "type": "warning",
+      "createdAt": "2026-07-20T01:00:00.000Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1",
+      "action": "DATABASE_INITIALIZED",
+      "details": "Enterprise DB Seeded with core premium Algerian inventories.",
+      "createdAt": "2026-07-20T03:57:00.000Z"
+    }
+  ],
+  "supportTickets": [
+    {
+      "id": "TCK-552",
+      "name": "Arthur Pendragon",
+      "email": "arthur@camelot.com",
+      "subject": "Warranty verification for ROG Laptop",
+      "message": "Does the laptop have international coverage in Europe?",
+      "status": "Open",
+      "createdAt": "2026-07-19T10:45:00.000Z",
+      "replies": []
+    }
+  ]
+}

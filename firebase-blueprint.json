@@ -1,0 +1,29 @@
+{
+  "entities": {
+    "ECommerceDatabase": {
+      "title": "ECommerce Database",
+      "description": "Entire persistent state of the e-commerce platform.",
+      "type": "object",
+      "properties": {
+        "categories": { "type": "array" },
+        "subCategories": { "type": "array" },
+        "brands": { "type": "array" },
+        "products": { "type": "array" },
+        "coupons": { "type": "array" },
+        "websiteSettings": { "type": "object" },
+        "users": { "type": "array" },
+        "orders": { "type": "array" },
+        "reviews": { "type": "array" },
+        "notifications": { "type": "array" },
+        "auditLogs": { "type": "array" },
+        "supportTickets": { "type": "array" }
+      }
+    }
+  },
+  "firestore": {
+    "/ecommerce/database": {
+      "schema": "ECommerceDatabase",
+      "description": "Single-document storage of the e-commerce database."
+    }
+  }
+}

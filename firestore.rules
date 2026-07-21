@@ -1,0 +1,92 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Check if the user is an Admin or Store Manager
+    function isAdmin() {
+      return request.auth != null && 
+        exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+        (get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'Super Admin' ||
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'Store Manager');
+    }
+
+    // Public read-only collections
+    match /products/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    
+    match /categories/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    
+    match /subCategories/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    
+    match /brands/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    
+    match /settings/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    
+    match /coupons/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /reviews/{id} {
+      allow read: if true;
+      allow create: if request.auth != null;
+      allow update, delete: if isAdmin() || (request.auth != null && resource.data.userId == request.auth.uid);
+    }
+
+    // User-specific read/write collections
+    match /users/{userId} {
+      allow read: if request.auth != null && (request.auth.uid == userId || isAdmin());
+      allow write: if request.auth != null && (request.auth.uid == userId || isAdmin());
+    }
+
+    match /orders/{orderId} {
+      allow read: if true; // Allow client/server reading matching orders
+      allow create: if true; // Allow checkout creations
+      allow update, delete: if isAdmin();
+    }
+    
+    match /wishlist/{id} {
+      allow read, write: if request.auth != null;
+    }
+    
+    match /cart/{id} {
+      allow read, write: if request.auth != null;
+    }
+    
+    match /notifications/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    
+    match /auditLogs/{id} {
+      allow read: if isAdmin();
+      allow write: if isAdmin();
+    }
+    
+    match /supportTickets/{id} {
+      allow read: if true;
+      allow create: if true; // Allow guests to open tickets
+      allow update, delete: if isAdmin();
+    }
+
+    match /ecommerce/{id} {
+      allow read: if true;
+      allow write: if false;
+    }
+  }
+}
+
